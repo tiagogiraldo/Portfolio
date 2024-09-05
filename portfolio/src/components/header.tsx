@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import ThemeToggle from '@/components/theme-toggle'
+import Image from 'next/image'
 
 export default function Header() {
   return (
@@ -8,16 +9,18 @@ export default function Header() {
       <nav className='container flex max-w-3xl items-center justify-between'>
         <div>
           <Link href='/' className='font-serif text-2x1 font-bold'>
-            SG
+            <Image src={'/images/logo/sg.png'} alt={'SG'}
+              height={34}
+              width={34}
+            />
           </Link>
         </div>
-
         <ul className='flex items-center gap-6 text-sm font-light text-muted-foreground'>
           <li className='transition-colors hover:text-foreground'>
             <Link href='/posts'>Posts</Link>
           </li>
           <li className='transition-colors hover:text-foreground'>
-            <Link href='/'>Projects</Link>
+            <Link href='/projects'>Projects</Link>
           </li>
           <li className='transition-colors hover:text-foreground'>
             <Link href='/snipets'>Snipets</Link>
