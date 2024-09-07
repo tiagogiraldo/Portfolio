@@ -12,6 +12,7 @@ export default function Header() {
             <Image src={'/images/logo/sg.png'} alt={'SG'}
               height={34}
               width={34}
+              className="rounded-full"
             />
           </Link>
         </div>
