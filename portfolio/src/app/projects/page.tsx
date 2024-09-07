@@ -1,7 +1,7 @@
 import Container from "@/components/projects/container";
 import { HeroProjects } from "@/components/projects/hero-project";
 import { Intro } from "@/components/projects/intro";
-import { MoreStories } from "@/components/blog/more-stories";
+import { MoreStories } from "@/components/projects/more-stories";
 import { getAllProjects } from "@/lib/api";
 
 export default function Index() {
@@ -23,7 +23,7 @@ export default function Index() {
           slug={heroProjects.slug}
           excerpt={heroProjects.excerpt}
         />
-        {moreProjects.length > 0 && <MoreStories posts={moreProjects} />}
+        {moreProjects.length > 0 && <MoreStories projects={moreProjects} />}
       </Container>
     </main>
   );
