@@ -10,7 +10,7 @@ ogImage:
   url: "/images/projects/005_engine_economics.png"
 ---
 
-# Machine Learning Developer | NLP
+# Python Developer
 
 EngineEconomics is a library developed in Python. It was designed to solve the main problems that arise in the area of Engineering Economics. It focuses on financial mathematics that occur over discrete time periods. The cash flows that are analyzed with this library are restricted to uniform times or fractions, without taking into account cash flows associated to dates, if you have something like that you must convert the periods to integers or fractions of time to be evaluated with the functions developed here.
 
