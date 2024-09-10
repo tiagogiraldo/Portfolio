@@ -1,7 +1,7 @@
 import Container from "@/components/snipets/container";
 import { HeroSnipets } from "@/components/snipets/hero-snipet";
 import { Intro } from "@/components/snipets/intro";
-import { MoreStories } from "@/components/blog/more-stories";
+import { MoreSnipets } from "@/components/snipets/more-snipets";
 import { getAllSnipets } from "@/lib/api";
 
 export default function Index() {
@@ -23,7 +23,7 @@ export default function Index() {
           slug={heroSnipets.slug}
           excerpt={heroSnipets.excerpt}
         />
-        {moreSnipets.length > 0 && <MoreStories posts={moreSnipets} />}
+        {moreSnipets.length > 0 && <MoreSnipets snipets={moreSnipets} />}
       </Container>
     </main>
   );
