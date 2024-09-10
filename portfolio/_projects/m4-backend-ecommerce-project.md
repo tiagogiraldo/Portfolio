@@ -10,7 +10,7 @@ ogImage:
   url: "/images/projects/008_M4_Nest_Back_Project_ecommerce.png"
 ---
 
-# Fullstack Developer
+# Fullstack Developer | Back End
 
 This ecommerce backend project uses NestJS to design and implement a robust and scalable API that handles a high volume of requests and provides a seamless user experience. The project follows a well-planned code architecture and uses a Postgres database with TypeORM for data management. It features API endpoints for CRUD operations, validation, pagination, and security measures such as encryption, JWT authentication, and role-based access control. Additionally, the project integrates with Cloudinary for cloud image management and generates documentation using Swagger and Open API. By implementing these features, the project aims to create a secure, efficient, and well-documented backend for an ecommerce application that can handle a large volume of users and transactions.
 
@@ -59,7 +59,7 @@ Project goals:
 -Creating documentation for the application using Swagger and Open API.
 
 
-**Tech stack:** JS · Node.js · Nextjs · TypeScript · PostgresSQL
+**Tech stack:** JS · Node.js · Nestjs · TypeScript · PostgresSQL
 
 **Github repo:** [https://github.com/tiagogiraldo/SoyHenry_PM4_BackEnd_Project](https://github.com/tiagogiraldo/SoyHenry_PM4_BackEnd_Project)
 
