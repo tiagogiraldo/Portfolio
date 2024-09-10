@@ -1,11 +1,12 @@
 import { Snipet } from "@/interfaces/snipet";
 import { SnipetPreview } from "./snipet-preview";
+import { SnipetBody } from './snipet-body';
 
 type Props = {
   snipets: Snipet[];
 };
 
-export function MoreStories({ snipets }: Props) {
+export function MoreSnipets({ snipets }: Props) {
   return (
     <section>
       <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
