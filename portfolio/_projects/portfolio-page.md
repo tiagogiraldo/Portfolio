@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-excerpt: "Ecommerce Back End Project with Nestjs"
+excerpt: "Portfolio and Blog page with Nextjs"
 coverImage: "/images/projects/011_portfolio.png"
 date: "2024-09-10T00:00:00.0000"
 author:
