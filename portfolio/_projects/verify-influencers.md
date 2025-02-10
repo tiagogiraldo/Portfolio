@@ -14,6 +14,7 @@ ogImage:
 
 ## Verify Influencer Challenge Project
 
+
 The Verify Influencer Challenge project is a web application designed to analyze and display information about influencers, their claims, and the verification process. The project is hosted on Vercel and can be accessed at .
 
 The Verify Influencer Challenge project is a web application designed to analyze and display information about health influencers, their claims, and the verification process. The project is hosted on Vercel and can be accessed at [https://verifyinf-tiagogiraldos-projects.vercel.app/leaderboard](https://verifyinf-tiagogiraldos-projects.vercel.app/leaderboard). The main features of the project include:
@@ -22,6 +23,7 @@ The Verify Influencer Challenge project is a web application designed to analyze
     Each influencer has a dedicated detail page that offers in-depth information. This feature allows users to delve deeper into an influencer's history and assess their reliability.
 
 Data collection for this project was obtained using a Python prompt employing Perplexity AI's sonar-pro, ensuring a comprehensive and up-to-date dataset for analysis. The project is built using Next.js for the frontend and Python for data extraction. This combination provides a powerful and flexible foundation for developing the web application. The application is deployed on Vercel, a cloud platform for static sites and serverless functions, which provides fast and reliable hosting for the web application.
+
 
 
 **Tech stack:** NextJS · LLM · Perplexity · Python
