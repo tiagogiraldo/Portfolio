@@ -14,8 +14,6 @@ ogImage:
 
 ## Verify Influencer Challenge Project
 
-The Verify Influencer Challenge project is a web application designed to analyze and display information about influencers, their claims, and the verification process. The project is hosted on Vercel and can be accessed at .
-
 The Verify Influencer Challenge project is a web application designed to analyze and display information about health influencers, their claims, and the verification process. The project is hosted on Vercel and can be accessed at [https://verifyinf-tiagogiraldos-projects.vercel.app/leaderboard](https://verifyinf-tiagogiraldos-projects.vercel.app/leaderboard). The main features of the project include:
 
     A comprehensive leaderboard that displays crucial information about influencers. This leaderboard provides a quick overview of the most influential figures and their credibility based on the verification of their claims.
