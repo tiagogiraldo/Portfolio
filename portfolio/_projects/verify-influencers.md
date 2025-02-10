@@ -22,6 +22,7 @@ The Verify Influencer Challenge project is a web application designed to analyze
 Data collection for this project was obtained using a Python prompt employing Perplexity AI's sonar-pro, ensuring a comprehensive and up-to-date dataset for analysis. The project is built using Next.js for the frontend and Python for data extraction. This combination provides a powerful and flexible foundation for developing the web application. The application is deployed on Vercel, a cloud platform for static sites and serverless functions, which provides fast and reliable hosting for the web application.
 
 
+
 **Tech stack:** NextJS · LLM · Perplexity · Python
 
 **Github repo:** [https://github.com/tiagogiraldo/verifyinf](https://github.com/tiagogiraldo/verifyinf)
