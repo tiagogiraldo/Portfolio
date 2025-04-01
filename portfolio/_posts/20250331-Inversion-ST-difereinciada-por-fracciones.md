@@ -13,6 +13,7 @@ ogImage:
 
 # Python | Pandas | Numpy | Matplotlib | Series de Tiempo
 
+
 López de Prado en su libro **“Advances in Financial Machine Learning (Wiley, 2018)”** explica una metodología para diferenciar series de tiempo por fracciones.  El argumento para justificar ésta transformación, es que los métodos tradicionales como la diferenciación entera remueven la memoria que tienen los precios.   En el texto, él desarrolla un procedimiento para calcular de forma eficiente la diferenciación por fracciones a una serie de tiempo financiera, conservando su memoria y garantizando su estacionariedad.  Allí, él desarrolla una serie de códigos que permiten realizar el proceso de diferenciación de las series, pero no implementa un código para reconstruir o invertir una serie de tiempo a su escala original, algo que en el momento de escribir el artículo no he encontrado en ningún lado, razón por la cual decidí desarrollar un código que permita “reescalar” una serie diferenciada por fracciones.  
 
 En el libro se define una serie de tiempo diferenciada por fracciones como:
