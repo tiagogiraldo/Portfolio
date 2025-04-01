@@ -422,11 +422,11 @@ En el siguiente gráfico se muestra la serie invertida y sus intervalos de confi
 
 ## Resumen
 
-En éste artículo se muestra como una serie de tiempo diferenciada por fracciones puede ser invertida para llevarla a la escala original de precios $USD.  Se presenta un ejemplo numérico con una serie de tiempo real.  El código esté disponible en [github](20250331_post/fradiff_NVIDIA.ipynb)
+En éste artículo se muestra como una serie de tiempo diferenciada por fracciones puede ser invertida para llevarla a la escala original de precios $USD.  Se presenta un ejemplo numérico con una serie de tiempo real.  El código esté disponible en [github](https://github.com/tiagogiraldo/blog_posts/blob/main/20250331_post/fradiff_NVIDIA.ipynb)
 
 
 
 **Tech stack:** Python · Series de Tiempo ·  Statsmodels · Numpy  ·  Panda · Matplotlib · Data Analysis 
 
-**Notebook:** [github](20250331_post/fradiff_NVIDIA.ipynb)
+**Notebook:** [github](https://github.com/tiagogiraldo/blog_posts/blob/main/20250331_post/fradiff_NVIDIA.ipynb)
 
