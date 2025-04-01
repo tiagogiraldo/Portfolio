@@ -16,3 +16,74 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown a {
+  @apply text-blue-600 dark:text-blue-500 hover:underline transition-colors duration-200;
+}
+
+.markdown a:focus-visible {
+  @apply ring-2 ring-blue-500 ring-opacity-50;
+}
+
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+
+/* Table styles */
+.markdown table {
+  @apply w-full my-6 border-collapse;
+}
+
+.markdown th,
+.markdown td {
+  @apply border px-4 py-2;
+  border-color: hsl(var(--table-border));
+}
+
+.markdown th {
+  @apply font-semibold;
+  background-color: hsl(var(--table-header));
+}
+
+.markdown tr:nth-child(even) {
+  background-color: hsl(var(--table-row-even));
+}
+
+.markdown tr:nth-child(odd) {
+  background-color: hsl(var(--table-row-odd));
+}
+
+.markdown table {
+  @apply w-full my-6 border-collapse;
+}
+
+.markdown th,
+.markdown td {
+  @apply border px-4 py-2 text-center; /* Added text-center here */
+  border-color: hsl(var(--table-border));
+}
+
+.markdown th {
+  @apply font-semibold;
+  background-color: hsl(var(--table-header));
+}
+
+.markdown tr:nth-child(even) {
+  background-color: hsl(var(--table-row-even));
+}
+
+.markdown tr:nth-child(odd) {
+  background-color: hsl(var(--table-row-odd));
+}
+
+/* Make tables responsive */
+.markdown table {
+  @apply block overflow-x-auto;
+}
+
+@screen sm {
+  .markdown table {
+    @apply table;
+  }
+}
